@@ -5,6 +5,12 @@ info:
   description: ''
 servers:
   - url: 'http://localhost:3000'
-paths: {}
+paths:
+  /tests:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-tests
 components:
   schemas: {}
